@@ -1,0 +1,1655 @@
+
+ErrNo: 2
+ TEXT: require_once(cms_functions.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+ LOCATION: C:\wamp\www\cms\business\DirCreator.class.php
+ LINE: 4 atJuly 20, 2013, 9:56:pm Showing Backtrace: require_once() # line    4, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   12, file: $s\nrequire_once() # line  163, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(models/login.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+ LOCATION: C:\wamp\www\cms\index.php
+ LINE: 169 atJuly 20, 2013, 10:13:pm Showing Backtrace: require_once() # line  169, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: value
+ LOCATION: C:\wamp\www\cms\models\action.php
+ LINE: 14 atJuly 20, 2013, 10:26:pm Showing Backtrace: require_once() # line  164, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: value
+ LOCATION: C:\wamp\www\cms\models\action.php
+ LINE: 14 atJuly 20, 2013, 10:27:pm Showing Backtrace: require_once() # line  164, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: C:\wamp\www\cms\actions\edit.php
+ LINE: 481 atJuly 20, 2013, 10:43:pm Showing Backtrace: mysql_fetch_array() # line  481, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  164, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: C:\wamp\www\cms\actions\edit.php
+ LINE: 481 atJuly 20, 2013, 10:44:pm Showing Backtrace: mysql_fetch_array() # line  481, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  164, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42000]: Syntax error or access violation: 1110 Column 'modified_by' specified twice
+ LOCATION: C:\wamp\www\cms\business\Database_handler.class.php
+ LINE: 43 atJuly 21, 2013, 8:40:am Showing Backtrace: trigger_error() # line   43, file: $s\nDatabaseHandler.Execute() # line  548, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  164, file: $s\n
+
+ErrNo: 2
+ TEXT: rmdir(../temp/ghgdash) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory
+ LOCATION: C:\xampp\htdocs\cms\business\DirCreator.class.php
+ LINE: 100 atJuly 21, 2013, 10:57:pm Showing Backtrace: rmdir() # line  100, file: $s\nDirCreator.removeDir() # line   18, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  169, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(../../send.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+ LOCATION: C:\xampp\htdocs\cms\models\action.php
+ LINE: 69 atJuly 22, 2013, 1:10:am Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  169, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(actions/send.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+ LOCATION: C:\xampp\htdocs\cms\models\action.php
+ LINE: 69 atJuly 22, 2013, 1:11:am Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  169, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(../config/constants.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+ LOCATION: C:\xampp\htdocs\cms\actions\send.php
+ LINE: 1 atJuly 22, 2013, 1:12:am Showing Backtrace: require_once() # line    1, file: $s\nrequire_once() # line   69, file: $s\nrequire_once() # line  169, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(../config/constants.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+ LOCATION: C:\xampp\htdocs\cms\actions\send.php
+ LINE: 1 atJuly 22, 2013, 1:12:am Showing Backtrace: require_once() # line    1, file: $s\nrequire_once() # line   69, file: $s\nrequire_once() # line  169, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image' in 'field list'
+ LOCATION: C:\xampp\htdocs\cms\business\Database_handler.class.php
+ LINE: 43 atJuly 23, 2013, 1:33:am Showing Backtrace: trigger_error() # line   43, file: $s\nDatabaseHandler.Execute() # line  146, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image' in 'field list'
+ LOCATION: C:\xampp\htdocs\cms\business\Database_handler.class.php
+ LINE: 43 atJuly 23, 2013, 1:34:am Showing Backtrace: trigger_error() # line   43, file: $s\nDatabaseHandler.Execute() # line  146, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: rmdir(../Institute/Infrastructure) [<a href='function.rmdir'>function.rmdir</a>]: Directory not empty
+ LOCATION: C:\xampp\htdocs\cms\business\DirCreator.class.php
+ LINE: 100 atJuly 23, 2013, 2:18:am Showing Backtrace: rmdir() # line  100, file: $s\nDirCreator.removeDir() # line   50, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:28:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:29:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:29:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:29:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:30:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:30:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:32:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:37:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:38:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:38:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:38:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:38:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:39:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'icon' in 'field list'
+ LOCATION: C:\xampp\htdocs\cms\business\Database_handler.class.php
+ LINE: 43 atJuly 23, 2013, 2:40:am Showing Backtrace: trigger_error() # line   43, file: $s\nDatabaseHandler.Execute() # line  105, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:45:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:45:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:46:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:46:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:47:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: C:\xampp\htdocs\cms\actions\add.php
+ LINE: 213 atJuly 23, 2013, 2:47:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image' in 'field list'
+ LOCATION: C:\xampp\htdocs\cms\business\Database_handler.class.php
+ LINE: 43 atJuly 23, 2013, 7:01:pm Showing Backtrace: trigger_error() # line   43, file: $s\nDatabaseHandler.Execute() # line  146, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image' in 'field list'
+ LOCATION: C:\xampp\htdocs\cms\business\Database_handler.class.php
+ LINE: 43 atJuly 23, 2013, 7:02:pm Showing Backtrace: trigger_error() # line   43, file: $s\nDatabaseHandler.Execute() # line  146, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image' in 'field list'
+ LOCATION: C:\xampp\htdocs\cms\business\Database_handler.class.php
+ LINE: 43 atJuly 23, 2013, 7:03:pm Showing Backtrace: trigger_error() # line   43, file: $s\nDatabaseHandler.Execute() # line  146, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'icon' in 'field list'
+ LOCATION: C:\xampp\htdocs\cms\business\Database_handler.class.php
+ LINE: 43 atJuly 23, 2013, 7:07:pm Showing Backtrace: trigger_error() # line   43, file: $s\nDatabaseHandler.Execute() # line  105, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Permission denied
+ LOCATION: C:\xampp\htdocs\cms\business\DirCreator.class.php
+ LINE: 75 atJuly 23, 2013, 7:59:pm Showing Backtrace: mkdir() # line   75, file: $s\nDirCreator.copyDir() # line   51, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: rmdir(../instititue/infrastructure) [<a href='function.rmdir'>function.rmdir</a>]: Directory not empty
+ LOCATION: C:\xampp\htdocs\cms\business\DirCreator.class.php
+ LINE: 100 atJuly 23, 2013, 8:13:pm Showing Backtrace: rmdir() # line  100, file: $s\nDirCreator.removeDir() # line   50, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists
+ LOCATION: C:\xampp\htdocs\cms\business\DirCreator.class.php
+ LINE: 75 atJuly 24, 2013, 12:02:am Showing Backtrace: mkdir() # line   75, file: $s\nDirCreator.copyDir() # line   59, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists
+ LOCATION: C:\xampp\htdocs\cms\business\DirCreator.class.php
+ LINE: 75 atJuly 24, 2013, 12:02:am Showing Backtrace: mkdir() # line   75, file: $s\nDirCreator.copyDir() # line   59, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_close(): 64 is not a valid FTP Buffer resource
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 355 atAugust 2, 2013, 1:01:pm Showing Backtrace: ftp_close() # line  355, file: $s\nwriteContent() # line  697, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: copy(../images/flogo.jpg): failed to open stream: Permission denied
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/FileHandler.class.php
+ LINE: 51 atAugust 6, 2013, 11:05:pm Showing Backtrace: copy() # line   51, file: $s\nFileHandler.uploader() # line  246, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'where clause'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/Database_handler.class.php
+ LINE: 43 atAugust 7, 2013, 12:06:am Showing Backtrace: trigger_error() # line   43, file: $s\nDatabaseHandler.Execute() # line   31, file: $s\nSubscription.Delete() # line  333, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: file_get_contents(../css/style.back.css): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 639 atAugust 11, 2013, 10:17:am Showing Backtrace: file_get_contents() # line  639, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: file_get_contents(../css/style.back.css): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 639 atAugust 11, 2013, 10:18:am Showing Backtrace: file_get_contents() # line  639, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: file_get_contents(../css/style.back.css): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 639 atAugust 11, 2013, 10:18:am Showing Backtrace: file_get_contents() # line  639, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(/config/constants.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/send.php
+ LINE: 1 atAugust 20, 2013, 1:28:pm Showing Backtrace: require_once() # line    1, file: $s\nrequire_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 256
+ TEXT: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ND isdeleted = 0' at line 1
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/Database_handler.class.php
+ LINE: 62 atAugust 20, 2013, 10:18:pm Showing Backtrace: trigger_error() # line   62, file: $s\nDatabaseHandler.GetAll() # line  106, file: $s\nrequire_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 121 atAugust 21, 2013, 3:42:pm Showing Backtrace: ftp_rmdir() # line  121, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 121 atAugust 21, 2013, 3:44:pm Showing Backtrace: ftp_rmdir() # line  121, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 121 atAugust 23, 2013, 12:41:am Showing Backtrace: ftp_rmdir() # line  121, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 121 atAugust 23, 2013, 12:30:pm Showing Backtrace: ftp_rmdir() # line  121, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: unlink(../placements/procedures/images/banner/placement procedure.jpg): Permission denied
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 119 atAugust 23, 2013, 12:39:pm Showing Backtrace: unlink() # line  119, file: $s\nDirCreator.removeDir() # line  117, file: $s\nDirCreator.removeDir() # line  117, file: $s\nDirCreator.removeDir() # line  117, file: $s\nDirCreator.removeDir() # line   16, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: unlink(../campus_life/medical_facility/images/banner/health_centre.jpg): Permission denied
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 119 atAugust 23, 2013, 12:48:pm Showing Backtrace: unlink() # line  119, file: $s\nDirCreator.removeDir() # line  117, file: $s\nDirCreator.removeDir() # line  117, file: $s\nDirCreator.removeDir() # line   51, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Use of undefined constant TOP_URL - assumed 'TOP_URL'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/send.php
+ LINE: 77 atAugust 23, 2013, 6:03:pm Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Use of undefined constant TOP_URL - assumed 'TOP_URL'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/send.php
+ LINE: 77 atAugust 23, 2013, 6:03:pm Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Use of undefined constant TOP_URL - assumed 'TOP_URL'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/send.php
+ LINE: 77 atAugust 23, 2013, 6:03:pm Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Use of undefined constant TOP_URL - assumed 'TOP_URL'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/send.php
+ LINE: 77 atAugust 23, 2013, 6:03:pm Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Use of undefined constant TOP_URL - assumed 'TOP_URL'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/send.php
+ LINE: 77 atAugust 23, 2013, 6:03:pm Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Use of undefined constant TOP_URL - assumed 'TOP_URL'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/send.php
+ LINE: 77 atAugust 23, 2013, 6:03:pm Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Use of undefined constant TOP_URL - assumed 'TOP_URL'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/send.php
+ LINE: 77 atAugust 23, 2013, 6:03:pm Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Use of undefined constant TOP_URL - assumed 'TOP_URL'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/send.php
+ LINE: 77 atAugust 23, 2013, 6:03:pm Showing Backtrace: require_once() # line   69, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(/campus_life/includes/side_nav.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 132 atAugust 24, 2013, 8:01:pm Showing Backtrace: require_once() # line  132, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(/campus_life/includes/side_nav.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 133 atAugust 24, 2013, 8:02:pm Showing Backtrace: require_once() # line  133, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(/placements/includes/side_nav.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 133 atAugust 24, 2013, 8:04:pm Showing Backtrace: require_once() # line  133, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(../administration/the_director-message/includes/side_nav.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 133 atAugust 24, 2013, 8:06:pm Showing Backtrace: require_once() # line  133, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: require_once(/includes/nav.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 129 atAugust 24, 2013, 8:10:pm Showing Backtrace: require_once() # line  129, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: title
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 159 atAugust 25, 2013, 12:39:am Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: tagline
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 161 atAugust 25, 2013, 12:39:am Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: overview
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 162 atAugust 25, 2013, 12:39:am Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: content
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 163 atAugust 25, 2013, 12:39:am Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: css
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 164 atAugust 25, 2013, 12:39:am Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: js
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 165 atAugust 25, 2013, 12:39:am Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined offset: 4
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/FileHandler.class.php
+ LINE: 179 atSeptember 15, 2013, 2:47:am Showing Backtrace: FileHandler.listFolderFiles() # line  176, file: $s\nFileHandler.listFolderFiles() # line  144, file: $s\nFileHandler.listFiles() # line  268, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined offset: 4
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/FileHandler.class.php
+ LINE: 179 atSeptember 15, 2013, 2:47:am Showing Backtrace: FileHandler.listFolderFiles() # line  176, file: $s\nFileHandler.listFolderFiles() # line  144, file: $s\nFileHandler.listFiles() # line  268, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined offset: 4
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/FileHandler.class.php
+ LINE: 179 atSeptember 15, 2013, 2:48:am Showing Backtrace: FileHandler.listFolderFiles() # line  176, file: $s\nFileHandler.listFolderFiles() # line  144, file: $s\nFileHandler.listFiles() # line  268, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atSeptember 18, 2013, 2:55:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atSeptember 18, 2013, 2:57:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atSeptember 18, 2013, 2:59:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line    2, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 121 atOctober 6, 2013, 9:03:pm Showing Backtrace: ftp_rmdir() # line  121, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 121 atOctober 6, 2013, 9:03:pm Showing Backtrace: ftp_rmdir() # line  121, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: unlink(../placements/recruiters/images/banner/RECRUITERS.jpg): Permission denied
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 119 atOctober 7, 2013, 11:45:am Showing Backtrace: unlink() # line  119, file: $s\nDirCreator.removeDir() # line  117, file: $s\nDirCreator.removeDir() # line  117, file: $s\nDirCreator.removeDir() # line   51, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 27, 2014, 9:34:pm Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 28, 2014, 2:03:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 28, 2014, 2:11:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 28, 2014, 2:11:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 28, 2014, 2:12:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 28, 2014, 2:12:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 28, 2014, 2:28:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 28, 2014, 2:28:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 28, 2014, 2:44:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 216 atJanuary 28, 2014, 3:02:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 121 atJanuary 30, 2014, 12:35:am Showing Backtrace: ftp_rmdir() # line  121, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 121 atJanuary 30, 2014, 12:35:am Showing Backtrace: ftp_rmdir() # line  121, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: file_get_contents(/index.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 772 atJanuary 30, 2014, 11:34:pm Showing Backtrace: file_get_contents() # line  772, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: file_get_contents(/index.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 772 atJanuary 30, 2014, 11:34:pm Showing Backtrace: file_get_contents() # line  772, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: file_get_contents(/var/www/beta.iiita.ac.in/public_htmlindex.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 772 atJanuary 30, 2014, 11:36:pm Showing Backtrace: file_get_contents() # line  772, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: file_get_contents(/var/www/beta.iiita.ac.in/public_html/test.php): failed to open stream: No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 772 atJanuary 30, 2014, 11:54:pm Showing Backtrace: file_get_contents() # line  772, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: sav
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 789 atJanuary 30, 2014, 11:58:pm Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: sav
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 789 atJanuary 30, 2014, 11:58:pm Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: chdir(): No such file or directory (errno 2)
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 331 atJanuary 30, 2014, 11:59:pm Showing Backtrace: chdir() # line  331, file: $s\nwriteContent() # line  361, file: $s\nsaveFile() # line  790, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: chdir(): No such file or directory (errno 2)
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 331 atJanuary 31, 2014, 12:00:am Showing Backtrace: chdir() # line  331, file: $s\nwriteContent() # line  362, file: $s\nsaveFile() # line  790, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: chdir(): No such file or directory (errno 2)
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 331 atJanuary 31, 2014, 12:01:am Showing Backtrace: chdir() # line  331, file: $s\nwriteContent() # line  362, file: $s\nsaveFile() # line  790, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: path
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 779 atJanuary 31, 2014, 12:03:am Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir(): No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 376 atJanuary 31, 2014, 1:07:am Showing Backtrace: mkdir() # line  376, file: $s\naddFile() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir(): No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 376 atJanuary 31, 2014, 1:09:am Showing Backtrace: mkdir() # line  376, file: $s\naddFile() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir(): No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 376 atJanuary 31, 2014, 1:10:am Showing Backtrace: mkdir() # line  376, file: $s\naddFile() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir(): No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 376 atJanuary 31, 2014, 1:10:am Showing Backtrace: mkdir() # line  376, file: $s\nadd_file() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir(): No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 376 atJanuary 31, 2014, 1:11:am Showing Backtrace: mkdir() # line  376, file: $s\nadd_file() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir(): No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 377 atJanuary 31, 2014, 1:11:am Showing Backtrace: mkdir() # line  377, file: $s\nadd_file() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mkdir(): No such file or directory
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 377 atJanuary 31, 2014, 1:13:am Showing Backtrace: mkdir() # line  377, file: $s\nadd_file() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_chdir(): Failed to change directory.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 381 atJanuary 31, 2014, 1:25:am Showing Backtrace: ftp_chdir() # line  381, file: $s\nadd_file() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: chdir() expects exactly 1 parameter, 2 given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 381 atJanuary 31, 2014, 1:26:am Showing Backtrace: chdir() # line  381, file: $s\nadd_file() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: fopen(): Filename cannot be empty
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 332 atJanuary 31, 2014, 2:19:pm Showing Backtrace: fopen() # line  332, file: $s\nwriteContent() # line  362, file: $s\nsaveFile() # line  800, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: fopen(): Filename cannot be empty
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 392 atJanuary 31, 2014, 2:24:pm Showing Backtrace: fopen() # line  392, file: $s\nadd_file() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: chdir(): No such file or directory (errno 2)
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 331 atJanuary 31, 2014, 2:33:pm Showing Backtrace: chdir() # line  331, file: $s\nwriteContent() # line  362, file: $s\nsaveFile() # line  801, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: chdir(): No such file or directory (errno 2)
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 331 atJanuary 31, 2014, 2:33:pm Showing Backtrace: chdir() # line  331, file: $s\nwriteContent() # line  362, file: $s\nsaveFile() # line  801, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: chdir(): No such file or directory (errno 2)
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 331 atJanuary 31, 2014, 2:39:pm Showing Backtrace: chdir() # line  331, file: $s\nwriteContent() # line  362, file: $s\nsaveFile() # line  801, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: chdir(): No such file or directory (errno 2)
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 332 atJanuary 31, 2014, 2:39:pm Showing Backtrace: chdir() # line  332, file: $s\nwriteContent() # line  363, file: $s\nsaveFile() # line  801, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: cms_topics
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 554 atJanuary 31, 2014, 4:16:pm Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: cms_topics
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 556 atJanuary 31, 2014, 4:16:pm Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: cms_topics
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 554 atJanuary 31, 2014, 4:18:pm Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: cms_topics
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 556 atJanuary 31, 2014, 4:18:pm Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: result
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:24:pm Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, null given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:24:pm Showing Backtrace: mysql_fetch_array() # line  336, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: result
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:25:pm Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, null given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:25:pm Showing Backtrace: mysql_fetch_array() # line  336, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: result
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:25:pm Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, null given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:25:pm Showing Backtrace: mysql_fetch_array() # line  336, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: result
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:30:pm Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, null given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:30:pm Showing Backtrace: mysql_fetch_array() # line  336, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: result
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:30:pm Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, null given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 4:30:pm Showing Backtrace: mysql_fetch_array() # line  336, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: result
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 7:31:pm Showing Backtrace: require_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, null given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 336 atJanuary 31, 2014, 7:31:pm Showing Backtrace: mysql_fetch_array() # line  336, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: fopen(): Filename cannot be empty
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 393 atJanuary 31, 2014, 9:20:pm Showing Backtrace: fopen() # line  393, file: $s\nadd_file() # line  615, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: filename
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/fileUpload.php
+ LINE: 249 atJanuary 31, 2014, 11:07:pm Showing Backtrace: require_once() # line   48, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined offset: 1
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/FileHandler.class.php
+ LINE: 92 atJanuary 31, 2014, 11:07:pm Showing Backtrace: FileHandler.check_formats() # line   25, file: $s\nFileHandler.uploader() # line  251, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined offset: 1
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/FileHandler.class.php
+ LINE: 95 atJanuary 31, 2014, 11:07:pm Showing Backtrace: FileHandler.check_formats() # line   25, file: $s\nFileHandler.uploader() # line  251, file: $s\nrequire_once() # line   48, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: name
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/fileUpload.php
+ LINE: 397 atJanuary 31, 2014, 11:12:pm Showing Backtrace: require_once() # line   48, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: name
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/fileUpload.php
+ LINE: 398 atJanuary 31, 2014, 11:12:pm Showing Backtrace: require_once() # line   48, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: typeOfFile
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/fileUpload.php
+ LINE: 395 atJanuary 31, 2014, 11:14:pm Showing Backtrace: require_once() # line   48, file: $s\nrequire_once() # line  185, file: $s\n
+
+ErrNo: 2
+ TEXT: in_array() expects parameter 2 to be array, string given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 786 atFebruary 1, 2014, 11:34:pm Showing Backtrace: in_array() # line  786, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 227 atFebruary 6, 2014, 3:41:pm Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 227 atFebruary 6, 2014, 4:30:pm Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 227 atFebruary 7, 2014, 10:32:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 121 atFebruary 7, 2014, 9:25:pm Showing Backtrace: ftp_rmdir() # line  121, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_mkdir(): Create directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 389 atFebruary 9, 2014, 10:09:pm Showing Backtrace: ftp_mkdir() # line  389, file: $s\nadd_file() # line  669, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 227 atFebruary 10, 2014, 12:20:pm Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 2
+ TEXT: fopen(rolling_msg.php): failed to open stream: Permission denied
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 336 atFebruary 10, 2014, 3:01:pm Showing Backtrace: fopen() # line  336, file: $s\nwriteContent() # line  366, file: $s\nsaveFile() # line  878, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 2
+ TEXT: fopen(): Filename cannot be empty
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 396 atFebruary 10, 2014, 3:15:pm Showing Backtrace: fopen() # line  396, file: $s\nadd_file() # line  669, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 2
+ TEXT: fopen(): Filename cannot be empty
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 396 atFebruary 10, 2014, 3:15:pm Showing Backtrace: fopen() # line  396, file: $s\nadd_file() # line  669, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 2
+ TEXT: fopen(): Filename cannot be empty
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 396 atFebruary 10, 2014, 3:17:pm Showing Backtrace: fopen() # line  396, file: $s\nadd_file() # line  669, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 2
+ TEXT: fopen(): Filename cannot be empty
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/filewrite_functions.php
+ LINE: 396 atFebruary 10, 2014, 3:17:pm Showing Backtrace: fopen() # line  396, file: $s\nadd_file() # line  669, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  199, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 1:38:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: HTTP_X_FORWARD_FOR
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/site_head.php
+ LINE: 4 atFebruary 12, 2014, 1:38:am Showing Backtrace: require_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 1:39:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 1:40:am Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 8:48:pm Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant EVENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 11 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line   11, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant NEWS_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 12 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line   12, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant ANNOUNCEMENT_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 13 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line   13, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant TENDER_PER_PAGE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 14 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line   14, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HTTP_SERVER_PORT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 16 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line   16, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant VIRTUAL_LOCATION already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 17 atFebruary 12, 2014, 8:49:pm Showing Backtrace: define() # line   17, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_ROOT already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 2 atFebruary 12, 2014, 9:04:pm Showing Backtrace: define() # line    2, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant HOST already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 3 atFebruary 12, 2014, 9:04:pm Showing Backtrace: define() # line    3, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant USER already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 4 atFebruary 12, 2014, 9:04:pm Showing Backtrace: define() # line    4, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant PASS already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 5 atFebruary 12, 2014, 9:04:pm Showing Backtrace: define() # line    5, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant DBNAME already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 6 atFebruary 12, 2014, 9:04:pm Showing Backtrace: define() # line    6, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Constant SITE_TITLE already defined
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/includes/constants.php
+ LINE: 8 atFebruary 12, 2014, 9:04:pm Showing Backtrace: define() # line    8, file: $s\nrequire_once() # line    3, file: $s\nrequire_once() # line    1, file: $s\nrequire_once() # line   63, file: $s\n
+
+ErrNo: 8
+ TEXT: Use of undefined constant _iiita_cms_username_ - assumed '_iiita_cms_username_'
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 194 atFebruary 13, 2014, 4:23:am Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 227 atFebruary 13, 2014, 11:09:am Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  201, file: $s\n

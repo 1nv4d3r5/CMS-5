@@ -1,0 +1,119 @@
+.active-bar {
+	background:#02495d !important;
+	color:#fff;
+	
+}
+
+.preview {
+display:none;
+height:auto;
+background:#fff;
+}
+.cms_container {
+	width:1160px;
+}
+.cms_container {
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+.cms_container:before,
+.cms_container:after {
+  display: table;
+  content: "";
+}
+.cms_container:after {
+  clear: both;
+}
+
+.sideNav {
+}
+.sideNavItem {
+	background:#fff;
+	margin-top:5px;
+	-moz-box-shadow: 0 0 2px 1px #ccc;
+	-webkit-box-shadow:0 0 2px 1px #ccc;
+}
+.sideNavItem p{
+	margin:5px;
+	padding:3px;
+	font-size:15px;
+}
+
+.content {
+	margin-left:25px;
+	border-right:1px solid #ccc;
+}
+
+.navActions {
+	margin-top:5px; padding:2px;margin-left:30px;
+}
+.navHolder {
+	background:#fff;
+	margin-top:10px;
+	margin-left:30px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	-moz-box-shadow: 0 0 2px 1px #ccc;
+	-webkit-box-shadow:0 0 2px 1px #ccc;
+}
+.navHolder label {
+	margin: 5px;
+}
+.navHolder input{
+	margin-left:10px;
+	height:30px;
+	
+}
+.navHolder  textarea{
+	margin-left:10px;
+	max-width:100%;
+	
+}
+.navTitle {
+margin:5px;
+padding:2px;
+border-bottom:1px solid #ccc;
+}
+
+.active {
+	color:green;
+	align:center;
+}
+.inactive {
+	color:red;
+	align:center;
+}
+.subnavHolder {
+	margin-left:20px;
+	padding:2px;
+	
+}
+.subnavholder td {
+	font-size:13px
+}
+
+.abc {
+    height: 19px;
+    margin: 0px auto;
+    position: relative;
+    width: 20px;
+
+}
+
+.bcd {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    display: inline-block;
+    height: 0px;
+    position: absolute;
+    width: 0px;
+}
+
+.efg {
+border-top: 10px solid rgb(116, 164, 102);
+margin-top: -2px;
+}
+.fileDisplay img:hover{ 
+	opacity:0.9;
+}

@@ -1,0 +1,846 @@
+   
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_fcrblpjhvrll83qtkdi8158hk1, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 27, 2013, 8:37:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: chdir(): No such file or directory (errno 2)
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 43 atJuly 27, 2013, 10:47:pm Showing Backtrace: chdir() # line   43, file: $s\nDirCreator.dirStructure() # line   17, file: $s\nDirCreator.generateStructure() # line   39, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: copy(../temp/jai_bhole_nath/includes/content.php): failed to open stream: Permission denied
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 92 atJuly 27, 2013, 11:06:pm Showing Backtrace: copy() # line   92, file: $s\nDirCreator.copyDir() # line   89, file: $s\nDirCreator.copyDir() # line  183, file: $s\nrequire_once() # line   57, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 120 atJuly 27, 2013, 11:06:pm Showing Backtrace: ftp_rmdir() # line  120, file: $s\nDirCreator.removeDir() # line  184, file: $s\nrequire_once() # line   57, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_mkdir(): Create directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 85 atJuly 27, 2013, 11:07:pm Showing Backtrace: ftp_mkdir() # line   85, file: $s\nDirCreator.copyDir() # line  183, file: $s\nrequire_once() # line   57, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: copy(../temp/jai_bhole_nath/includes/content.php): failed to open stream: Permission denied
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 92 atJuly 27, 2013, 11:09:pm Showing Backtrace: copy() # line   92, file: $s\nDirCreator.copyDir() # line   89, file: $s\nDirCreator.copyDir() # line  183, file: $s\nrequire_once() # line   57, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 120 atJuly 27, 2013, 11:23:pm Showing Backtrace: ftp_rmdir() # line  120, file: $s\nDirCreator.removeDir() # line   18, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 120 atJuly 27, 2013, 11:25:pm Showing Backtrace: ftp_rmdir() # line  120, file: $s\nDirCreator.removeDir() # line  184, file: $s\nrequire_once() # line   57, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: modified_by
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/add.php
+ LINE: 213 atJuly 27, 2013, 11:44:pm Showing Backtrace: require_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 120 atJuly 28, 2013, 1:30:am Showing Backtrace: ftp_rmdir() # line  120, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 120 atJuly 28, 2013, 1:30:am Showing Backtrace: ftp_rmdir() # line  120, file: $s\nDirCreator.removeDir() # line   53, file: $s\nrequire_once() # line   60, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 120 atJuly 28, 2013, 1:31:am Showing Backtrace: ftp_rmdir() # line  120, file: $s\nDirCreator.removeDir() # line  215, file: $s\nrequire_once() # line   57, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 120 atJuly 28, 2013, 1:42:am Showing Backtrace: ftp_rmdir() # line  120, file: $s\nDirCreator.removeDir() # line  184, file: $s\nrequire_once() # line   57, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_mkdir(): Create directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 85 atJuly 28, 2013, 1:56:am Showing Backtrace: ftp_mkdir() # line   85, file: $s\nDirCreator.copyDir() # line  214, file: $s\nrequire_once() # line   57, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_mkdir(): Create directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 30 atJuly 28, 2013, 2:01:am Showing Backtrace: ftp_mkdir() # line   30, file: $s\nDirCreator.dirStructure() # line   17, file: $s\nDirCreator.generateStructure() # line  110, file: $s\nrequire_once() # line   45, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: ftp_rmdir(): Remove directory operation failed.
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/business/DirCreator.class.php
+ LINE: 120 atJuly 28, 2013, 2:02:am Showing Backtrace: ftp_rmdir() # line  120, file: $s\nDirCreator.removeDir() # line  216, file: $s\nrequire_once() # line   57, file: $s\nrequire_once() # line  171, file: $s\n
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:27:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:27:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:28:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:40:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:40:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:41:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:41:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:41:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:41:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:41:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:44:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:44:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: Unknown: open(/var/lib/php/session/sess_rnkqi421134a19f7kssi8e7227, O_RDWR) failed: Permission denied (13)
+ LOCATION: Unknown
+ LINE: 0 atJuly 28, 2013, 4:45:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:08:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 10:54:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   23, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined index: user
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 10:59:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:54:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: htmlentities() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 11:54:pm Showing Backtrace: htmlentities() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:54:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: htmlentities() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 24 atJuly 28, 2013, 11:54:pm Showing Backtrace: htmlentities() # line   24, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:54:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:54:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: htmlentities() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 28, 2013, 11:54:pm Showing Backtrace: htmlentities() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: htmlentities() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 24 atJuly 28, 2013, 11:55:pm Showing Backtrace: htmlentities() # line   24, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:55:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:55:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:55:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:55:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:55:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:55:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:55:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 28, 2013, 11:55:pm Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 29, 2013, 12:05:am Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/api/cms_functions.php
+ LINE: 107 atJuly 29, 2013, 12:07:am Showing Backtrace: mysql_fetch_array() # line  107, file: $s\nchk_user() # line   26, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 29, 2013, 12:12:am Showing Backtrace: addslashes() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 24 atJuly 29, 2013, 12:12:am Showing Backtrace: addslashes() # line   24, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 29, 2013, 12:12:am Showing Backtrace: addslashes() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 24 atJuly 29, 2013, 12:12:am Showing Backtrace: addslashes() # line   24, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: _SESiSION
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 169 atJuly 29, 2013, 2:17:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined variable: _SESiSION
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 169 atJuly 29, 2013, 2:17:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined variable: _SESiSION
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 169 atJuly 29, 2013, 2:17:pm Showing Backtrace: 
+
+ErrNo: 8
+ TEXT: Undefined variable: _SESiSION
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 169 atJuly 29, 2013, 2:17:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 237 atJuly 29, 2013, 2:21:pm Showing Backtrace: mysql_fetch_array() # line  237, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 237 atJuly 29, 2013, 2:21:pm Showing Backtrace: mysql_fetch_array() # line  237, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 237 atJuly 29, 2013, 2:22:pm Showing Backtrace: mysql_fetch_array() # line  237, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: name
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/fileUpload.php
+ LINE: 391 atJuly 29, 2013, 2:23:pm Showing Backtrace: require_once() # line   48, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: name
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/fileUpload.php
+ LINE: 392 atJuly 29, 2013, 2:23:pm Showing Backtrace: require_once() # line   48, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined index: _iiita_cms_username_
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 73 atJuly 29, 2013, 2:37:pm Showing Backtrace: 
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 237 atJuly 29, 2013, 2:39:pm Showing Backtrace: mysql_fetch_array() # line  237, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 185 atJuly 29, 2013, 2:46:pm Showing Backtrace: mysql_fetch_array() # line  185, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: mysql_fetch_array() expects parameter 1 to be resource, boolean given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/edit.php
+ LINE: 185 atJuly 29, 2013, 2:46:pm Showing Backtrace: mysql_fetch_array() # line  185, file: $s\nrequire_once() # line   54, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: name
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/fileUpload.php
+ LINE: 391 atJuly 29, 2013, 2:49:pm Showing Backtrace: require_once() # line   48, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 8
+ TEXT: Undefined variable: name
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/actions/fileUpload.php
+ LINE: 392 atJuly 29, 2013, 2:49:pm Showing Backtrace: require_once() # line   48, file: $s\nrequire_once() # line  177, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 29, 2013, 10:19:pm Showing Backtrace: addslashes() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 24 atJuly 29, 2013, 10:19:pm Showing Backtrace: addslashes() # line   24, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atJuly 29, 2013, 10:19:pm Showing Backtrace: addslashes() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 24 atJuly 29, 2013, 10:19:pm Showing Backtrace: addslashes() # line   24, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atAugust 1, 2013, 1:22:am Showing Backtrace: addslashes() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 24 atAugust 1, 2013, 1:22:am Showing Backtrace: addslashes() # line   24, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 23 atAugust 1, 2013, 1:22:am Showing Backtrace: addslashes() # line   23, file: $s\n
+
+ErrNo: 2
+ TEXT: addslashes() expects parameter 1 to be string, array given
+ LOCATION: /var/www/beta.iiita.ac.in/public_html/cms/index.php
+ LINE: 24 atAugust 1, 2013, 1:22:am Showing Backtrace: addslashes() # line   24, file: $s\n
